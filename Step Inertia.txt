@@ -1,0 +1,11 @@
+1.  i laravel
+2.  add brezze
+    composer require laravel/breeze --dev
+3.  install breze dengan scafholding react otomatin implementasi inertia di dalamnya
+    php artisan breeze:install react
+    npm run dev && npm run dev
+    ntah kenapa nanti akan ada error yang kita peru install
+    -   sass-loader
+    -   less-loader
+    -   stylus-loader
+    
