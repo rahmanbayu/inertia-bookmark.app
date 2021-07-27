@@ -8,4 +8,15 @@
     -   sass-loader
     -   less-loader
     -   stylus-loader
-    
+4.  jadi gini route tetep sama seperti traditional laravel
+    yang beda adalah di controller kan biasanya kita
+    return view('some.view');
+    jika pake inertia kita return react componenet
+    caranya:
+    Inertia:render('Bookmaks/index');
+5.  jika ingin mengirim data
+    $bookmarks = ....;
+    return Inertia::render('some/view', ['bookmarks' => $bookmarks]);
+    di react component kita bisa akses data yang dikirim dari props
+    props.bookmarks
+
